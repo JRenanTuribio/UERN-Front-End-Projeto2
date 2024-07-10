@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amigo do seu pet</title>
+</head>
+<body>
+    <!-- nav-bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Amigo do seu Pet</h1>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a id="botaoNav"  href="#">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- headline -->
+    <header class="headline">
+        <div class="headlineText">
+            <h2>Você Achou a Melhor Para Cuidar Do seu Pet</h2>
+            <p>Somos uma empresa expecializada em cuidar de animais, aqui você vai encontrar vários serviços, oferecidos com qualidade, atenção e com um preço justo.</p>
+            <a href="#" class="ContrateBtn">Contrate Agora para mais informações</a>
+        </div>
+
+        <div class="headlineImg">
+            <img src="img/group-portrait-adorable-puppies.jpg" width="1000" alt="logo sobre marketing">
+        </div>
+    </header>
+    <!-- serviços -->
+    <section>
+        <h2>Conheça nossos Serviços</h2>
+        <ul class="servicos">
+            <li class="card">
+                <h3>Veterinário</h3>
+                <img  class="card_img" src="img/veterinario.jpg" width="300"  alt="imagem de um veterinário cuidado de um cachorrinho">
+                <p>Temos como principal missão cuidar da saúde e bem-estar do seu animal. Isso inclui prevenir, diagnosticar e tratar doenças, realizar cirurgias, administrar vacinas, prescrever medicamento e aconselhar sobre os cuidados adequados das espécies.</p>
+            </li>
+            <li class="card">
+                <h3>Banho e Tosa</h3>
+                <img  class="card_img" src="img/banhoTosa.jpg" width="140" alt="cachorro tomando banho">
+                <p>Banho e tosa ou banho e tosquia é a designação dada ao conjunto de cuidados estéticos de um cão, gato ou ave. Com nossa equipe expecielizada você pode ficar tranquilo sabendo que seu bixinho está sendo muito bem tratado.</p>
+            </li>
+            <li class="card">
+                <h3>Casa de Ração</h3>
+                <img  class="card_img" src="img/casaDeRacao.jpg"  width="300" alt="produtos no interior de uma casa de ração">
+                <p>Aqui temos os mais variados produtos e principais marcas do mercado, você com certeza ira encontrar oque precisa, levara um produto de qualidade e por um preço acessível.</p>
+            </li>
+        </ul>
+    </section>
+    <!-- rodapé -->
+    <footer>
+        <div class="logoRodape">
+            <h2>Fale conosco e venha nos fazer uma vizita!</h2>
+            <div>
+                <ul>
+                    <li>Numero: <a href="#">84 9 1111 3333</a></li>
+                    <li>E-mail: <a href="#">amigodoseupet@exemplo.com</a></li>
+                </ul>
+            </div>
+            <p>Site feito para estudos, com HTML, CSS e Javascript puro</p>
+            <p>©copyright José Renan</p>
+        </div>
+    </footer>
+    <!-- formulario -->
+    <div class="form-container">
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+            <button id="fechar_form" type="button">Fechar</button>
+        </form>
+    </div>
+    <!-- javascript -->
+    <script src="js/script.js" ></script>
+</body>
+</html>
